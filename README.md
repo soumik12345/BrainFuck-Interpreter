@@ -10,7 +10,7 @@ The eight language commands each consist of a single character:
 
 Character	Meaning
 
-1.  >	increment the data pointer (to point to the next cell to the right).
+1. The >	increment the data pointer (to point to the next cell to the right).
 2. <	decrement the data pointer (to point to the next cell to the left).
 3. +	increment (increase by one) the byte at the data pointer.
 4. -	decrement (decrease by one) the byte at the data pointer.
