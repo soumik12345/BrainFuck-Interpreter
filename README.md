@@ -12,8 +12,8 @@ Character	Meaning
 
 1. The >	increment the data pointer (to point to the next cell to the right).
 2. <	decrement the data pointer (to point to the next cell to the left).
-3. +	increment (increase by one) the byte at the data pointer.
-4. -	decrement (decrease by one) the byte at the data pointer.
+3. '+'	increment (increase by one) the byte at the data pointer.
+4. '-'	decrement (decrease by one) the byte at the data pointer.
 5. .	output the byte at the data pointer.
 6. ,	accept one byte of input, storing its value in the byte at the data pointer.
 7. [	if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching ] command.
